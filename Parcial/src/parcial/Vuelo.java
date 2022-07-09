@@ -11,9 +11,15 @@ package parcial;
 public class Vuelo {
     private int numero;
     private int horasalida;
+    private int horallegada;
     private Date fechasalida;
     private String destino;
    
-    
+    public Vuelo(int numero, float precio, int numAsientos, int horasalida, int horallegada, Date fecha, String destino){
+        this.numero=numero;
+        this.horasalida=horasalida;
+        this.horallegada=horallegada;
+        
+    }
     
 }

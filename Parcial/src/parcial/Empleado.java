@@ -8,7 +8,7 @@ package parcial;
  *
  * @author Usuario
  */
-public class Empleado {
+public class Empleado extends Persona {
     private float sueldo;
     private int codigo;
     

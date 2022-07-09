@@ -8,7 +8,7 @@ package parcial;
  *
  * @author Usuario
  */
-public class Cliente {
+public class Cliente extends Persona{
     private float dinero;
     private int puntos;
     
