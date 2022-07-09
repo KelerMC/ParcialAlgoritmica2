@@ -13,4 +13,8 @@ public class Venta {
     private float montoTotal;
     private int numAsientos;
     
+    public boolean agregarAsiento(Asiento asiento){
+        
+    }
+    
 }
