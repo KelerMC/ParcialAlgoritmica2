@@ -14,6 +14,7 @@ public class Vuelo {
     private int horallegada;
     private Date fechasalida;
     private String destino;
+    private Asiento precio;
    
     public Vuelo(int numero, float precio, int numAsientos, int horasalida, int horallegada, Date fecha, String destino){
         this.numero=numero;
@@ -21,8 +22,12 @@ public class Vuelo {
         this.horallegada=horallegada;
         this.fechasalida=fecha;
         this.destino=destino;
+        this.precio=precio;
+        
         
     }
-    public Asiento asientosLibre()
+    public Asiento asientosLibre(){
+        
+    }
     
 }

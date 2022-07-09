@@ -17,9 +17,8 @@ public class Asiento {
         this.numero=num;
         this.precio=precio;      
     }
-    public boolean reservar(){
+   
         
-    }
     public boolean cancelar(){
         
     }
