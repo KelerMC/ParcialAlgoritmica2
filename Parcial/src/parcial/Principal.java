@@ -8,7 +8,7 @@ package parcial;
  *
  * @author Usuario
  */
-public class Parcial {
+public class Principal {
 
     /**
      * @param args the command line arguments
