@@ -19,7 +19,10 @@ public class Vuelo {
         this.numero=numero;
         this.horasalida=horasalida;
         this.horallegada=horallegada;
+        this.fechasalida=fecha;
+        this.destino=destino;
         
     }
+    public Asiento asientosLibre()
     
 }
